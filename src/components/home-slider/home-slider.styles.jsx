@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 export const SliderContainer = styled.div`
-  width: 50%;
+  width: 40%;
   margin: auto;
   margin-top: 5%;
-  display: block;
+  margin-right: auto;
+  background-color: #232323;
+  border:5px solid #232323;
+  
 `;
 
 export const Legend = styled.p`

@@ -2,38 +2,35 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const NavigationContainer = styled.div`
-  background: #222;
-  float: left;
-  display: block;
-  padding-top: 20px;
-  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  z-index: 999;
+  position: sticky;
   top: 0;
-  left: 0;
-  bottom: 0;
-  width: 10%;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
+  background-color: #232323;
 `;
 
 export const LogoContainer = styled(Link)`
-  height: auto;
-  width: auto;
-  padding: 25px;
+  height: 100%;
+  width: 70px;
   display: flex;
-  justify-content: center;
+  margin-left: 5%;
 `;
 
 export const NavLinks = styled.div`
+  width: 50%;
   height: 100%;
-  display: block;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 `;
 
 export const NavLink = styled.p`
   padding: 10px 15px;
   cursor: pointer;
   color: #ffff;
-  display: flex;
-  justify-content: center;
 `;
