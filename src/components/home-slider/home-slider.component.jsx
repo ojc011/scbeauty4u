@@ -17,7 +17,6 @@ const HomeSlider = () => {
 
   const images = importAll(require.context('../../assets', false, /.jpg/));
   return (
-    <div>
       <SliderContainer>
         <Carousel>
           <div>
@@ -178,7 +177,6 @@ const HomeSlider = () => {
           </div>
         </Carousel>
       </SliderContainer>
-    </div>
   );
 };
 
