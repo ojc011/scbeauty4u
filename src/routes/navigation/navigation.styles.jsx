@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const NavigationContainer = styled.div`
   height: 100%;
@@ -11,13 +11,6 @@ export const NavigationContainer = styled.div`
   position: sticky;
   top: 0;
   background-color: #232323;
-`;
-
-export const LogoContainer = styled(Link)`
-  height: 100%;
-  width: 70px;
-  display: flex;
-  margin-left: 5%;
 `;
 
 export const NavLinks = styled.div`
@@ -32,4 +25,22 @@ export const NavLink = styled.p`
   padding: 10px 15px;
   cursor: pointer;
   color: #ffff;
+`;
+
+export const LogoContainer = styled(Link)`
+  height: auto;
+  width: 25%;
+  margin-left: 5%;
+  float: left;
+`;
+
+export const NameContainer = styled.div`
+  color: #fff;
+  font: inherit;
+  font-family: Montserrat, sans-serif;
+  font-size: 39px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 5%;
 `;

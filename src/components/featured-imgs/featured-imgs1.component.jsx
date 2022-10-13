@@ -21,7 +21,10 @@ const FeaturedImgs1 = () => {
         />
       </div>
       <div>
-        <img src={images['untitled17of62-630x417.jpg']} alt="Alexis" />
+        <img
+          src={images['untitled17of62-630x417.jpg']}
+          alt="Alexis"
+        />
       </div>
     </FeatImgContOne>
   );

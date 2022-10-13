@@ -1,17 +1,19 @@
 import { Fragment } from 'react';
 import { Outlet } from 'react-router-dom';
-import SiteLogo from '../../assets/SCBEAUTYLOGO.png';
 import {
   NavigationContainer,
   NavLinks,
   NavLink,
   LogoContainer,
+  NameContainer,
 } from './navigation.styles';
+import SiteLogo from '../../assets/SCBEAUTYLOGO.png';
 
 const Navigation = () => {
   return (
     <Fragment>
       <NavigationContainer>
+        <NameContainer>SC BEAUTY</NameContainer>
         <LogoContainer to="/">
           <img src={SiteLogo} className="logo" alt="logo" />
         </LogoContainer>
