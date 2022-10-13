@@ -7,7 +7,6 @@ export const NavigationContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
   z-index: 999;
   position: sticky;
   top: 0;

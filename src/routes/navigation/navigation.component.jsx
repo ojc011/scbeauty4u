@@ -16,13 +16,17 @@ const Navigation = () => {
           <img src={SiteLogo} className="logo" alt="logo" />
         </LogoContainer>
         <NavLinks>
-          <NavLink to="/">HOME</NavLink>
-          <NavLink to="/">WORK</NavLink>
-          <NavLink to="/">BRIDAL</NavLink>
-          <NavLink to="/">BOUDOIR</NavLink>
-          <NavLink to="/">PRICING</NavLink>
-          <NavLink to="/">ABOUT</NavLink>
-          <NavLink to="/">CONTACT</NavLink>
+          <NavLink to="/">Editorial</NavLink>
+          <NavLink to="/">Work</NavLink>
+          <NavLink to="/">Bridal</NavLink>
+          <NavLink to="/">Boudoir</NavLink>
+          <NavLink to="/">Pricing</NavLink>
+          <NavLink to="/">About</NavLink>
+          <NavLink to="/">Contact</NavLink>
+          <NavLink to="/">Our Work</NavLink>
+          <NavLink to="/">Looks</NavLink>
+          <NavLink to="/">Blog</NavLink>
+          <NavLink to="/">Wedding Contact</NavLink>
         </NavLinks>
       </NavigationContainer>
       <Outlet />
