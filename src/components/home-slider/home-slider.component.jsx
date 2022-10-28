@@ -2,8 +2,8 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
-import { ReviewsContainer, SliderContainer } from './home-slider.styles';
-import Reviews from '../reviews/reviews.component';
+import { SliderContainer } from './home-slider.styles';
+import ReviewSlider from '../review-slider/review-slider.component';
 
 const HomeSlider = () => {
   function importAll(r) {
@@ -384,9 +384,7 @@ const HomeSlider = () => {
           />
         </Carousel.Item>
       </Carousel>
-      <ReviewsContainer>
-        <Reviews/>
-      </ReviewsContainer>
+        <ReviewSlider />
     </SliderContainer>
   );
 };
