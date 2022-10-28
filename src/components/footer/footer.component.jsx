@@ -1,37 +1,29 @@
 import { FooterDiv } from './footer.styles';
+import WeddingWire from '../../assets/badge-weddingawards_en_US.png';
+import IGLogo from '../../assets/iglogo.png';
+import FBLogo from '../../assets/fblogo.png';
 
 const Footer = () => {
-  function importAll(r) {
-    let images = {};
-    r.keys().map((item) => {
-      images[item.replace('./', '')] = r(item);
-      return images;
-    });
-    return images;
-  }
-
-  const images = importAll(require.context('../../assets', false, /.png/));
-
   return (
     <FooterDiv>
-      {/* <a
+      <a
         href="https://www.weddingwire.com/biz/sc-beauty-austin/180d2c99e8efa991.html"
         target="_blank"
         rel="noreferrer"
       >
         <img
-          src={images['badge-weddingawards_en_US.png']}
+          src={WeddingWire}
           alt="WeddingAwards"
           style={{ height: 36, width: 36 }}
         />
-      </a> */}
+      </a>
       <a
         href="https://www.instagram.com/samanthacronkbeauty/"
         target="_blank"
         rel="noreferrer"
       >
         <img
-          src={images['iglogo.png']}
+          src={IGLogo}
           alt=""
           style={{ height: 36, width: 36 }}
         />
@@ -42,7 +34,7 @@ const Footer = () => {
         rel="noreferrer"
       >
         <img
-          src={images['fblogo.png']}
+          src={FBLogo}
           alt=""
           style={{ height: 36, width: 36 }}
         />

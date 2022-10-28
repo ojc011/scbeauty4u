@@ -12,9 +12,10 @@ export const SliderContainer = styled.div`
   margin-top: 0;
 `;
 
-export const FooterContainer = styled.div`
+export const ReviewsContainer = styled.div`
   margin: 0;
   height: 100%;
   display: flex;
   flex-direction: row;
+  color: #ffff;
 `;

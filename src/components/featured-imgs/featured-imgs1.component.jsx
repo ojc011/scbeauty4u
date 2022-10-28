@@ -1,30 +1,15 @@
 import { FeatImgContOne } from './featured-imgs.styles';
+import FI1 from '../../assets/anthonyandkendra-388-of-555-630x417.jpg';
+import FI2 from '../../assets/untitled17of62-630x417.jpg';
 
 const FeaturedImgs1 = () => {
-  function importAll(r) {
-    let images = {};
-    r.keys().map((item) => {
-      images[item.replace('./', '')] = r(item);
-      return images;
-    });
-    return images;
-  }
-
-  const images = importAll(require.context('../../assets', false, /.jpg/));
-
   return (
     <FeatImgContOne>
       <div>
-        <img
-          src={images['anthonyandkendra-388-of-555-630x417.jpg']}
-          alt="Alexis"
-        />
+        <img src={FI1} alt="Featured" />
       </div>
       <div>
-        <img
-          src={images['untitled17of62-630x417.jpg']}
-          alt="Alexis"
-        />
+        <img src={FI2} alt="Featured" />
       </div>
     </FeatImgContOne>
   );

@@ -2,10 +2,8 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
-import { FooterContainer, SliderContainer } from './home-slider.styles';
-
-import Footer from '../footer/footer.component';
-import { ReviewContainer } from '../footer/footer.styles';
+import { ReviewsContainer, SliderContainer } from './home-slider.styles';
+import Reviews from '../reviews/reviews.component';
 
 const HomeSlider = () => {
   function importAll(r) {
@@ -386,10 +384,9 @@ const HomeSlider = () => {
           />
         </Carousel.Item>
       </Carousel>
-      <FooterContainer>
-        <ReviewContainer>This will contain reviews</ReviewContainer> {/* Will interactively shows reviews */}
-        <Footer />
-      </FooterContainer>
+      <ReviewsContainer>
+        <Reviews/>
+      </ReviewsContainer>
     </SliderContainer>
   );
 };
