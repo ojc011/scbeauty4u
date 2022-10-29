@@ -10,7 +10,9 @@ const ReviewSlider = () => {
       <Carousel>
         <Carousel.Item>
           <Review>
-            <h2>'Fantastic experience with an extremely talented stylist'</h2>
+            <h2 style={{ fontSize: 20 }}>
+              'Fantastic experience with an extremely talented stylist'
+            </h2>
             <p>
               Samantha did such an incredible job with my hair and the hair of
               my 6 teen bridesmaids. She was so professional and easy to work
@@ -21,7 +23,7 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Sam is an amazing artist!'</h2>
+            <h2 style={{ fontSize: 20 }}>'Sam is an amazing artist!'</h2>
             <p>
               I can’t enough great things about Sam with SC Beauty! I was so
               lucky to have found her! I initially had a hard time finding
@@ -39,7 +41,9 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Last minute fill in but absolutely killed it!'</h2>
+            <h2 style={{ fontSize: 20 }}>
+              'Last minute fill in but absolutely killed it!'
+            </h2>
             <p>
               Samantha with SC Beauty was absolutely AMAZING! Some craziness
               happened and my original hair girl couldn’t do my hair and found
@@ -54,7 +58,7 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'SC Beauty is the BEST!!!'</h2>
+            <h2 style={{ fontSize: 20 }}>'SC Beauty is the BEST!!!'</h2>
             <p>
               I could not be happier with Samantha! Hair and makeup were both
               amazing and we easily stuck to our schedule with no issues. The
@@ -70,7 +74,7 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Excellent!'</h2>
+            <h2 style={{ fontSize: 20 }}>'Excellent!'</h2>
             <p>
               Samantha was great! I chose her because her prices were very
               reasonable, and she had showcased actual diversity in her
@@ -88,7 +92,9 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Excellent services and a joy to work with!'</h2>
+            <h2 style={{ fontSize: 20 }}>
+              'Excellent services and a joy to work with!'
+            </h2>
             <p>
               Stop looking, this is the lady you want to hire! She is
               professional and quick to respond through out the whole process.
@@ -102,7 +108,7 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Wonderful!'</h2>
+            <h2 style={{ fontSize: 20 }}>'Wonderful!'</h2>
             <p>
               Samantha was amazing to work with; cannot recommend her enough! We
               somehow only spent a total of 3-4 hours together but she feels
@@ -124,7 +130,9 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Great experience, beautiful finished product'</h2>
+            <h2 style={{ fontSize: 20 }}>
+              'Great experience, beautiful finished product'
+            </h2>
             <p>
               I am so grateful I picked Samantha to do my wedding HMU! She
               listened well, was communicative before and during the experience,
@@ -140,7 +148,7 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Felt Beautiful!'</h2>
+            <h2 style={{ fontSize: 20 }}>'Felt Beautiful!'</h2>
             <p>
               Samantha was AMAZING! We had an early wedding (which meant an
               early start time for getting ready) but she was super flexible and
@@ -153,7 +161,9 @@ const ReviewSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Review>
-            <h2>'Stunning! Best Vendor decision for my special day!!'</h2>
+            <h2 style={{ fontSize: 20 }}>
+              'Stunning! Best Vendor decision for my special day!!'
+            </h2>
             <p>
               Samantha left me speechless! I wish I lived in Austin so we could
               be real life friends! From the first communication to checking in
