@@ -5,6 +5,7 @@ export const ReviewsContainer = styled.div`
   height: 100%;
   display: flex;
   color: #ffff;
+  padding-top: 20px;
 `;
 
 export const Review = styled.div`
